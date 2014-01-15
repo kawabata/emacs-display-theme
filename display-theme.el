@@ -9,6 +9,7 @@
 ;; Modified: 2013-09-30
 ;; Version: 1.0
 ;; Keywords: tools
+;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/kawabata/emacs-display-theme/
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -37,7 +38,7 @@
   :group 'mode-line)
 
 (defcustom display-theme-format " [%s]"
-  "*Foramt to display current theme(s) at mode-line."
+  "*Format to display current theme(s) at mode-line."
   :type 'string
   :group 'display-theme)
 
